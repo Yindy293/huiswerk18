@@ -1,0 +1,63 @@
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+header {
+  background-image: url(groningen.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 60px;
+  font-family: bebas neue, serif;
+}
+img{
+  float: right;
+  margin: 10px;
+  border-radius: 2px;
+  border: 2px solid rgb(65, 39, 19);
+  width: 50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #6d4605;
+  color: white;
+}
+li:hover {
+  background-color: #f1d7a9;
+}
+h1{
+  color:#ffffff;
+}
+h2{
+  color:#6d4605
+}
+footer {
+  background-color: #885006;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  clear: both;
+}
